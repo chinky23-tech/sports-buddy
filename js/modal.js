@@ -63,3 +63,12 @@
             alert('Registration functionality would be implemented here');
             registerModal.style.display = 'none';
         });
+
+
+        // Close modals with Escape key
+        window.addEventListener('keydown', function(e) {
+  if (e.key === 'Escape') {
+    loginModal.style.display = 'none';
+    registerModal.style.display = 'none';
+  }
+});
