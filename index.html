@@ -7,10 +7,28 @@
   <link rel="stylesheet" href="css/style.css" />
 </head>
 <body>
-  <header class="hero">
-    <h1>Welcome to Sports Buddy</h1>
-    <p>Find your sports partner, connect & play!</p>
-    <a href="dashboard.html" class="btn">Get Started</a>
-  </header>
+
+  <nav class="navbar">
+  <a href="index.html" class="logo">
+    <span class="logo-text">Sports Buddy</span>
+  </a>
+<ul class="nav-links">
+              <li><a href="#home">Home</a></li>
+            <li><a href="#sports">Sports</a></li>
+            <li><a href="#how-it-works">How It Works</a></li>
+            <li><a href="#about">About</a></li>
+</ul>
+        <div class="auth-buttons">
+            <a class="login-btn" id="openLoginModal">Login</a>
+            <a class="register-btn" id="openRegisterModal">Register</a>
+        </div>
+        
+        <div class="hamburger" onclick="toggleNavbar()">
+            <div></div>
+            <div></div>
+            <div></div>
+        </div>
+  </nav>
+ 
 </body>
 </html>
